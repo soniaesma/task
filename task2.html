@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 2</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 300vh;
+            background-color: beige;
+            overflow-x: hidden;
+            
+        }
+
+
+
+        .backgroundImage{
+            background-image: url(src/images/sample\ label\ \(4\).jpg);
+            width: 100%;
+            height: 100vh;
+            flex: content;
+            background-size: cover;
+            margin-bottom: 50px;
+        }
+
+.tabelCol{
+   
+    width: 30vw;
+    justify-content: center;
+    align-content: center;
+}
+.tabelRow{
+    height: 20vh;
+    justify-content: center;
+    align-content: center;
+}
+
+        .BTN{
+            width: 60vw;
+            height: 3vh;
+            position: sticky;
+        left: 20%;
+       
+        }
+    </style>
+</head>
+<body>
+ 
+
+<section>
+    <table >
+        <caption><h1>Price List</h1></caption>
+        <colgroup class="tabelCol">
+        <col span="1" style="background-color: rgba(0, 0, 255, 0.5);">
+        <col span="1" style="background-color: rgba(0, 0, 255, 0.5);">
+        <col span="1" style="background-color: rgba(0, 128, 0, 0.5);">
+        <col span="1" style="background-color: rgba(0, 128, 0, 0.5);">
+        </colgroup>
+        <thead>
+            <td><h2>Service Title</h1></td>
+            <td><h2>Needed Time</h1></td>
+            <td><h2>Status</h1></td>
+            <td><h2>Price</h1></td>
+        </thead>
+        <tbody class="tabelRow">
+           <tr>
+            <td>Logo</td>
+            <td>20 days</td>
+            <td>Completed</td>
+            <td>300$</td>
+           </tr>
+           <tr>
+            <td>label</td>
+            <td>15 days</td>
+            <td>Need Analysis</td>
+            <td>150$</td>
+           </tr>
+           <tr>
+            <td>catalogue</td>
+            <td>2 monthes</td>
+            <td>In progress</td>
+            <td>100$ per page</td>
+           </tr>
+           <tr>
+            <td>bochure</td>
+            <td>2 weeks</td>
+            <td>Unknown</td>
+            <td>80$ per fold</td>
+           </tr>
+           <tfoot>
+            <td><h1>Sum</h1></td>
+            <td style="display: flex; color: brown;"><h1>104 days</h1></td>
+           
+           </tfoot>
+        </tbody>
+    </table> 
+    <hr color="blue">
+       <div class="backgroundImage">
+        
+    </div>
+</section>
+
+
+
+</body>
+<footer style="background-color: rgba(0, 255, 255, 0.3);">
+    <hr color="blue">
+    <address>
+       No2, 20 <sup>th</sup> Ally, sheykhtape Blv, Urmia, West Azarbayjan, Iran <br>
+       Phone Number: +989143456412 <br>
+       <hr color="blue">
+
+<a href="http://www.aprindesign.com"><button class="BTN">Main Website</button></a>
+
+    </address>
+    
+
+    
+</footer>
+</html>
